@@ -1,0 +1,31 @@
+slots:
+  num:
+    type: text
+
+intents:
+  - saludo
+  - despedida
+  - solicita_info_malware
+
+entities:
+  - num
+
+templates:
+  utter_saludo:
+    -"Hola Hacker! Que necesitas saber?"
+    -"Bonito dia para preguntar como esta la situacion virica. Que quieres saber?"
+    -"Hola Ciberanalista! Que quieres saber?"
+
+  utter_solicita_info_malware:
+    -"Que cantidad de Malware quieres que te muestre?"
+
+  utter_despedida:
+    -"Chao"
+    -"Adios hacker"
+    -"Hasta la proxima"
+
+actions:
+  - utter_saludo
+  - utter_solicita_info_malware
+  - utter_despedida
+  - get_url_malware

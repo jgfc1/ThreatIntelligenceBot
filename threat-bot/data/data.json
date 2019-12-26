@@ -1,0 +1,131 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Hola",
+        "intent": "saludo",
+        "entities": []
+      },
+      {
+        "text": "Buenos dias",
+        "intent": "saludo",
+        "entities": []
+      },
+      {
+        "text": "Buenas tardes",
+        "intent": "saludo",
+        "entities": []
+      },
+      {
+        "text": "Buenas tardes",
+        "intent": "saludo",
+        "entities": []
+      },
+      {
+        "text": "Buenas",
+        "intent": "saludo",
+        "entities": []
+      },
+      {
+        "text": "Hey",
+        "intent": "saludo",
+        "entities": []
+      },
+      {
+        "text": "Adios",
+        "intent": "despedida",
+        "entities": []
+      },
+      {
+        "text": "Hasta la vista",
+        "intent": "despedida",
+        "entities": []
+      },
+      {
+        "text": "Hasta luego",
+        "intent": "despedida",
+        "entities": []
+      },
+      {
+        "text": "Nos vemos",
+        "intent": "despedida",
+        "entities": []
+      },
+      {
+        "text": "Saludos",
+        "intent": "despedida",
+        "entities": []
+      },
+      {
+        "text": "Top 10 de Malware",
+        "intent": "solicita_info_malware",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "10",
+            "entity": "num"
+          }
+        ]
+      },
+      {
+        "text": "Ultimas 20 amenazas detectadas",
+        "intent": "solicita_info_malware",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "20",
+            "entity": "num"
+          }
+        ]
+      },
+      {
+        "text": "5 últimos incidentes",
+        "intent": "solicita_info_malware",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "5",
+            "entity": "num"
+          }
+        ]
+      },
+      {
+        "text": "15 virus mas comunes",
+        "intent": "solicita_info_malware",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "15",
+            "entity": "num"
+          }
+        ]
+      },
+      {
+        "text": "Quiero informacion de las ultimas amenazas detectadas",
+        "intent": "solicita_info_malware",
+        "entities": []
+      },
+      {
+        "text": "Listado de los ultimos virus detectados",
+        "intent": "solicita_info_malware",
+        "entities": []
+      },
+      {
+        "text": "Listado de virus",
+        "intent": "solicita_info_malware",
+        "entities": []
+      },
+      {
+        "text": "Listar amenazas informaticas",
+        "intent": "solicita_info_malware",
+        "entities": []
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}
